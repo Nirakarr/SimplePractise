@@ -129,13 +129,39 @@ li {
   display: block;
   margin-bottom: 5px;
 }
+
 }
-@media screen and (max-width: 1112px ) {
-	.content-info{
+@media screen and (max-width: 1112px ){
+  
+  .main{
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    width: 30em; 
+    border-radius: 30px;
+    background-color: black;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 70px;
+   }
+	.container{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
+    max-width: full;
+    width:30em;
+    min-height: fit-content;
 	}
+
+  .content-info{
+    display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+    max-width: full;
+    width:30em;
+    min-height: fit-content;
+  }
 
 	.coverpic{
 		position: inherit;
